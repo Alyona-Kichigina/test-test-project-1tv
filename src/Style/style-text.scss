@@ -1,0 +1,49 @@
+a, button, input, textarea {
+  outline: none;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s ease 0s !important;
+  color: inherit;
+}
+
+
+p {
+  line-height: 20px;
+  word-wrap: anywhere;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+h3 {
+  text-transform: uppercase;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+}
+
