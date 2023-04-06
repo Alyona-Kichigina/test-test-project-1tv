@@ -3,7 +3,7 @@ import {HoverBlock, ImgBlock, Img} from "./style";
 
 const ListComponent = ({image, title, description, text, onClick }) => {
   return (
-    <div className="color-white">
+    <div className="">
       <ImgBlock>
         <Img style={{backgroundImage: `url(${image})`}}/>
         <HoverBlock>
@@ -18,9 +18,9 @@ const ListComponent = ({image, title, description, text, onClick }) => {
           </button>
         </HoverBlock>
       </ImgBlock>
-      <div className="fw700 text-uppercase">
-        <div>{title}</div>
-        <div>{description}</div>
+      <div className="fw700 text-uppercase pt-15">
+        <div className="lh-20">{title}</div>
+        <div className="lh-20">{description}</div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import PageVideo from "./Pages/PageVideo";
 
 function App() {
   return (
-   <div className="flex-container bg-greyDarken-3">
+   <div className="flex jc-center">
     <Routes>
       <Route
         path='/list-video'

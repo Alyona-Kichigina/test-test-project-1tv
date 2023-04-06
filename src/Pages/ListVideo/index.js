@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import ListComponent from "../../Components/ListComponent";
-import {GridBlock} from "./style";
+import {GridBlock, GridVideo} from "./style";
 import BannerComponent from "../../Components/BannerComponent";
 import axios from "axios";
 import {useNavigate} from "react-router-dom";
@@ -22,15 +22,11 @@ const ListVideo = () => {
     }
   }
 
-  const openPageVideo = useCallback((id) => {
-    console.log(id)
-  }, [])
-
   return (
-    <div>
-      <h1>НАШИ ВИДЕО</h1>
-      <div className="flex">
-        <GridBlock>
+    <div className="pt-82 l-p-layout r-p-layout">
+      <h1 className="mb-25">НАШИ ВИДЕО</h1>
+      <GridBlock>
+        <GridVideo>
           {data.map(({image, title, description, text, id}) => (
             <ListComponent
               image={image}
@@ -42,9 +38,9 @@ const ListVideo = () => {
             />
           ))}
 
-        </GridBlock>
+        </GridVideo>
         <BannerComponent/>
-      </div>
+      </GridBlock>
     </div>
   );
 };

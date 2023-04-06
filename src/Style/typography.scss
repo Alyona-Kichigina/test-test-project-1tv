@@ -1,7 +1,13 @@
+.fw400 {
+  font-weight: 400;
+}
 .fw700 {
   font-weight: 700;
 }
 
+.fz-12 {
+  font-size: 12px;
+}
 .fz-16 {
   font-size: 16px;
 }
@@ -9,10 +15,17 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+.text-transform-none {
+  text-transform: none;
+}
 
 .text-align-right {
   text-align: right;
 }
 .text-align-left {
   text-align: left;
+}
+
+.lh-20 {
+  line-height: 20px;
 }

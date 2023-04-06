@@ -8,10 +8,15 @@ export const HoverBlock = styled.div`
   border-radius: var(--border-radius-block);
   padding: 24px 28px 34px 28px;
   opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: .2s;
  `
 
 export const ImgBlock = styled.div`
  position: relative;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   &:hover {
     ${HoverBlock} {
       opacity: 1;
@@ -22,7 +27,7 @@ export const ImgBlock = styled.div`
 
 
 export const Img = styled.div`
- width: 100%;
+ width: 488px;
  height: 272px;
  border-radius: var(--border-radius-block);
  background-position: center; 

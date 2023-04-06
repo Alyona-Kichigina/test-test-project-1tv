@@ -5,11 +5,10 @@ const CommentComponent = ({image, author, description, comment}) => {
   return (
     <Block>
       <div className="flex">
-
         {/*<Avatar style={{backgroundImage: `url(${image})`}} />*/}
         <div>
           <h3>{author}</h3>
-          <div className="color-grey-light-0 fz-16">{description}</div>
+          <div className="color-grey-light-0 fz-16 pt-4">{description}</div>
         </div>
       </div>
       <p className="pt-28">{comment}</p>

@@ -1,10 +1,10 @@
 import React from 'react';
-import {Block} from "./style";
+import {BannerImg, Block} from "./style";
 
 const BannerComponent = () => {
   return (
     <Block>
-
+      <BannerImg/>
     </Block>
   );
 };
